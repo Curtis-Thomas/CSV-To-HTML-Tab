@@ -1,1 +1,76 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="csv.css" />
+  </head>
+  <body>
+    <main>
+      <h1>CSV To HTML Table</h1>
+      <div class="maintop">
+        <div class="inputarea">    
+            <h4>Upload</h4>  
+          <div class="top-left">         
+            <div class="upload">
+                
+                <div class="upload-left">
+                    <p id="fileChosen">File Chosen = No</p>
+          <p id="fileSubmitted">File Submitted = No</p>
+          <p id="tableCreated">Table Created = No</p>
+          <h3>Event History</h3>
+          <p id="infobox"></p>
+
+                </div>
+                <div class="upload-right"><form id="myForm">
+                    <p>1. Choose CSV file To Upload</p>
+                    <input type="file" id="csvFile" accept=".csv" />
+                    <p>2. Submit File</p>
+                    <input type="submit" value="Submit" id="submit" />    
+                  </form> 
+                  <div class="show-all">
+
+                    <p>3. Create HTML table</p>
+              <button id="getbutton">Create Table</button>
+                   </div></div>
+                
+                
+              </div>                   
+          </div>       
+                  
+        </div>
+        <div class="infoboxcontainer">
+          <h2>Info Box</h2>
+          <p>This javascript project parses a CSV file, creating an array with each line as a element.</p>
+          <p>Then the information is injected onscreen in table format with pagination for next and previous buttons.</p>
+          <p>Download an Example File Below, or use your own</p>
+          <div class="download"> <a href="Small-Test-Data.csv" download="CSV_Sample_file">Download Small-Test-Data.csv</a></div>
+         
+          
+        </div>
+      </div>
+      <div class="results">
+        <p id="results"></p>
+      </div>
+      <div class="table-container"><div id="table"></div> </div>
+      <div class="table-btns-container"><div class="table-btns">
+        <button id="prevButton">Previous</button> 
+      <button id="nextButton">Next</button> 
+    </div></div>
+    
+      
+      <div class="selector-2-container">
+        <div class="selector-2-btns">
+          <button id="resetBtn">Reset</button>
+        </div>
+      </div>
+    </main>
+    <p>Developer Tools</p>
+    <button id="logArr">log array</button>    
+    <script src="script.js"></script>
+  </body>
+</html>

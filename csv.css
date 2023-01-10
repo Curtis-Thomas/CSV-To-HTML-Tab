@@ -1,0 +1,133 @@
+html 
+{
+    background-color: #1b1b17;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 1%;
+}
+  
+body 
+{
+    background-color: #1E1F1C;
+    color: rgb(218, 218, 218);
+    padding: 2%;
+    border: 1px solid rgb(100, 100, 100);
+    font-size: 1.1rem;
+}
+
+
+  
+h1
+{
+    text-align: center;  
+    font-size: 1.2rem;
+}
+h2,h3,h4,h5{
+    font-size: 1.1rem;
+}
+
+.upload {
+    display: flex;
+}
+.upload-left {
+    padding: 10px;
+    width: 50%;
+}
+.upload-right {
+    border-left: 1px solid grey;
+    padding: 10px;
+    width: 50%;
+
+}
+
+.maintop 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputarea  
+{
+    border: 1px solid grey;
+    width: 50%;
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: rgb(32, 37, 37);
+}
+
+.show-all 
+{
+    text-align: center;
+}
+  
+.infoboxcontainer 
+{
+    width: 50%;
+    text-align: center;
+    border: 1px solid grey;
+    margin-left: 10px;
+    padding: 15px;
+    background-color: rgb(32, 37, 37);
+}
+  
+.selector-2-container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+  
+
+
+
+button
+{
+    color: white;
+    
+    background-color: #444444;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+}
+  
+
+  
+
+td,
+th 
+{
+  
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: rgb(47, 56, 56);
+}
+  
+.download 
+{
+    font-size: 1.3rem;
+    background-color: rgb(26, 26, 26);
+    margin-left: 25%;
+    margin-right: 25%; 
+}
+
+.table-container {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.table-btns-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    margin-top: 10px;
+
+}
+  
